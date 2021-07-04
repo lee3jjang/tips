@@ -57,6 +57,7 @@
     <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
     <link rel="index" title="색인" href="genindex.html" />
     <link rel="search" title="검색" href="search.html" />
+    <link rel="prev" title="Async 사용법" href="async.html" />
   
    
 
@@ -238,6 +239,25 @@
       
     
     </li>
+    <li class="md-nav__item">
+    
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    <label class="md-nav__link md-nav__link--active" for="__toc"> sphinx로 만든 문서 github에 올리기 </label>
+    
+      <a href="#" class="md-nav__link md-nav__link--active">sphinx로 만든 문서 github에 올리기</a>
+      
+        
+<nav class="md-nav md-nav--secondary">
+  <ul class="md-nav__list" data-md-scrollfix="">
+    
+<li class="md-nav__item"><a class="md-nav__extra_link" href="_sources/doc2github.rst.txt">소스 보기</a> </li>
+
+  </ul>
+</nav>
+      
+    
+    </li>
   </ul>
   
 
@@ -267,6 +287,12 @@
             
   
 <h1 id="doc2github--page-root">sphinx로 만든 문서 github에 올리기<a class="headerlink" href="#doc2github--page-root" title="제목 주소">¶</a></h1>
+<ol class="arabic simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">conf.py</span></code> -&gt; <code class="docutils literal notranslate"><span class="pre">extensions``에</span> <span class="pre">``sphinx.ext.githubpages</span></code> 추가</p></li>
+<li><p>github repo. (예: tips) 만들기</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">make.bat</span> <span class="pre">html</span></code> 해서 나오는 <code class="docutils literal notranslate"><span class="pre">_build</span></code> 폴더를 <a href="#id1"><span class="problematic" id="id2">``</span></a>docs``로 복사</p></li>
+<li><p>github settings -&gt; 가서 /docs 물리게 설정</p></li>
+</ol>
 
 
 
@@ -278,6 +304,19 @@
   <footer class="md-footer">
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
+          
+            <a href="async.html" title="Async 사용법"
+               class="md-flex md-footer-nav__link md-footer-nav__link--prev"
+               rel="prev">
+              <div class="md-flex__cell md-flex__cell--shrink">
+                <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+              </div>
+              <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+                <span class="md-flex__ellipsis">
+                  <span
+                      class="md-footer-nav__direction"> Previous </span> Async 사용법 </span>
+              </div>
+            </a>
           
           
         </a>

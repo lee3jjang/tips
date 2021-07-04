@@ -9,3 +9,4 @@ Welcome to tips's documentation!
    schtasks
    argparse
    async
+   doc2github
