@@ -10,3 +10,4 @@ Welcome to tips's documentation!
    argparse
    async
    doc2github
+   bdist_wheel
