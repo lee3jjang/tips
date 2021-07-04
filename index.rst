@@ -8,7 +8,6 @@ Welcome to tips's documentation!
    sphinx
    schtasks
    argparse
-   async
    doc2github
    bdist_wheel
    gitignore
