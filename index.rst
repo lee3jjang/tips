@@ -12,4 +12,5 @@ Welcome to tips's documentation!
    doc2github
    bdist_wheel
    gitignore
+   api
    exercise
