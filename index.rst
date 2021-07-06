@@ -14,3 +14,4 @@ Welcome to tips's documentation!
    api
    exercise
    linebreak
+   loan
